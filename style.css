@@ -1,0 +1,82 @@
+.block.hover {
+    background: #373942;
+  }
+
+  .hover-button {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    height: 4rem;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    color: rgba(255, 255, 255, 0.96);
+    background: #6c35bb;
+    transition: background 0.25s;
+  }
+
+  .hover-button:hover,
+  .hover-button-hovered {
+    background: #34cdf3;
+  }
+
+  .hover-button-icon {
+    font-size: 1.5rem;
+  }
+
+  .hover-button-text {
+    margin-right: 0.5rem;
+    font-size: 1.25rem;
+  }
+
+
+
+
+  .block.focus {
+    background: #f7f7fe;
+}
+
+.block.focus .block-title {
+    color: #4c4954;
+}
+
+.focus-textbox {
+    position: relative;
+}
+
+.focus-textbox-icon {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+    display: grid;
+    place-items: center;
+    flex: 0 0 4rem;
+    font-size: 1.5rem;
+    color: #a19eab;
+}
+
+.focus-textbox-input {
+    width: 12rem;
+    height: 4rem;
+    padding-left: 3.5rem;
+    padding-right: 1rem;
+    border-radius: 0.5rem;
+    border: 2px solid #d6cdd7;
+    background: #ffffff;
+}
+
+.focus-textbox-input:focus,
+.input-focused {
+    border-color: #8f44fd;
+}
+
+.focus-textbox-input:focus~.focus-textbox-icon,
+.icon-focused {
+    color: #8f44fd;
+}  
+
+
+
+
